@@ -1,0 +1,97 @@
+:root {
+  font-size: 62.5%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: 'Montserrat', sans-serif;
+  background: linear-gradient(90deg, rgb(233, 233, 233) 20%, rgb(42, 42, 42) 90%);
+  background: radial-gradient();
+}
+
+main {
+  width: min(42.8rem, 90%);
+  margin: auto;
+  text-align: center;
+  margin-top: 20rem;
+  padding: 4.8rem 6.4rem 6.4rem 6.4rem;
+  border-radius: .6rem;
+  box-shadow: 5px 5px 20px black;
+  background: linear-gradient(270deg, rgb(94, 39, 39) 0%, rgb(233, 209, 75) 90%);
+  
+}
+
+h1 {
+  font-size: 2.4rem;
+  font-weight: 900;
+}
+
+p {
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 150%;
+
+  margin: 1.6rem 0 4.8rem;
+}
+
+
+.input-wrapper {
+  display: grid;
+  grid-template-columns: 4.3rem 8.2rem;
+  justify-content: center;
+
+
+}
+.input-wrapper input{
+  font-weight: 600;
+  height: 6rem;
+  border: none;
+  text-align: center;
+  font-size: 1.6rem;
+  box-shadow: 1px 0px 20px black;
+}
+
+.input-wrapper #bto {
+  background: rgb(72, 86, 99);
+  border-radius: 0rem 0.4rem 0.4rem 0rem;
+  color: white;
+  cursor: pointer;
+}
+
+#bto:active {
+  scale: .99;
+
+}
+
+#bto:hover {
+  background: rgb(68, 83, 97);
+}
+.input-wrapper #trial {
+  outline: 0;
+  border-radius: .4rem 0 0 .4rem;
+  background: rgb(251, 210, 194);
+  color: rgb(91, 91, 91);
+  padding-left: 1rem;
+}
+
+.screen2  {
+  margin-top: 5rem;
+  background: linear-gradient(90deg, rgb(190, 175, 175) 20%, rgb(42, 42, 42) 80%);
+  color: white;
+  font-size: 3rem;
+  border-radius: .8rem;
+
+}
+
+span {
+  color: black;
+  text-decoration: underline ;
+  font-weight: bold;
+  font-size: 4rem;
+}
